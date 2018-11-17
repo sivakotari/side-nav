@@ -1,0 +1,49 @@
+.sideNavContainer{
+  padding: 0 25px;
+  background-color: #f5f5f5;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 100%;
+  overflow-y: scroll;
+  transition: all 0.3s ease;
+}
+.sideNavInnerContainer {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 20px 0;
+}
+.sideNavInnerContainer div{
+  padding: 10px 0;
+  cursor: pointer;
+}
+.sideNavInnerContainer div a{
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.sideNavInnerContainer div:hover{
+  background-color: #eee;
+}
+.sideNav{
+  padding: 20px 0;
+}
+.hamBurger{
+  padding: 20px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.sectionTitle{
+  text-transform: uppercase;
+  color: #9c9c9c;
+  cursor: default!important;
+}
+.active{
+  /*display: block!important;*/
+  opacity: 1;
+  visibility: visible;
+}
+.inActive{
+  /*display: none!important;*/
+  opacity: 0;
+  visibility: hidden;
+}
