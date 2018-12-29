@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 import SideNav from '../components/SideNav';
+import PayPal from './PayPal';
+import ProductListing from './ProductListing';
 
 class App extends Component {
 	constructor(props){
@@ -23,9 +25,10 @@ class App extends Component {
     return (
       <div className="App">
       	<div className="sideNav">
-      		<span className="hamBurger" onClick={this.toggleSideNav.bind(this)}>&#9776;</span>
-      		Main Page content
-      		<SideNav sideNavClass={sideNavClass} />
+      		{/*<span className="hamBurger" onClick={this.toggleSideNav.bind(this)}>&#9776;</span>*/}
+      		{/*<PayPal />*/}
+      		{/*<SideNav sideNavClass={sideNavClass} />*/}
+          <ProductListing />
       	</div>
       </div>
     );

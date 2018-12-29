@@ -1,3 +1,10 @@
+.App{
+  width: 800px;
+  margin: 50px auto;
+}
+
+
+
 .sideNavContainer{
   padding: 0 25px;
   background-color: #f5f5f5;
@@ -46,4 +53,51 @@
   /*display: none!important;*/
   opacity: 0;
   visibility: hidden;
+}
+
+.ProductPage{
+  margin: 10px 0;
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+  display: flex;
+  color: #555;
+}
+.ProductPage img{
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+}
+.productDetails h3{
+  margin: 0;
+}
+.stock{
+  margin: 15px 0;
+  color: white;
+}
+.inStock{
+  background-color: green;
+}
+.outOfStock{
+  background-color: red;
+}
+
+.buyBox{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.buyBox:enabled {
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+}
+.productPrice{
+  font-style: italic;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.productDesc{
+  margin: 15px 0;
+  font-size: 14px;
 }

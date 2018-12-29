@@ -69,7 +69,23 @@ const Constants = {
 				linkTo: "",
 			},
 		},
-	}
+	},
+	ProductListing: [
+		{
+			title: "product1 title",
+			price: "50",
+			currency: "$",
+			description: "product1 description here...",
+			stock: 1
+		},
+		{
+			title: "product2 title",
+			price: "60",
+			currency: "$",
+			description: "product2 description here...",
+			stock: 0
+		}
+	],
 }
 
 export default Constants;
